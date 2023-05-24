@@ -1,0 +1,72 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 640
+  ClientWidth = 480
+  Fill.Kind = Gradient
+  Fill.Gradient.Points = <
+    item
+      Color = xFFA6257F
+      Offset = 0.000000000000000000
+    end
+    item
+      Color = xFF8F3191
+      Offset = 1.000000000000000000
+    end>
+  Fill.Gradient.StartPosition.Y = 0.500000000000000000
+  Fill.Gradient.StopPosition.X = 1.000000000000000000
+  Fill.Gradient.StopPosition.Y = 0.500000000000000000
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Center
+    Size.Width = 304.000000000000000000
+    Size.Height = 215.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Image1: TImage
+      MultiResBitmap = <
+        item
+        end>
+      Align = Fit
+      Size.Width = 215.000000000000000000
+      Size.Height = 215.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object Layout2: TLayout
+    Align = Bottom
+    Position.Y = 472.000000000000000000
+    Size.Width = 480.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+  end
+  object Layout3: TLayout
+    Align = Bottom
+    Position.Y = 528.000000000000000000
+    Size.Width = 480.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+  end
+  object Layout4: TLayout
+    Align = Bottom
+    Position.Y = 416.000000000000000000
+    Size.Width = 480.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+  end
+  object Layout5: TLayout
+    Align = Bottom
+    Position.Y = 584.000000000000000000
+    Size.Width = 480.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+  end
+end
