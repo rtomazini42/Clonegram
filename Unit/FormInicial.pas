@@ -27,6 +27,7 @@ type
     Label3: TLabel;
     Line3: TLine;
     Label4: TLabel;
+    procedure Label3Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -39,6 +40,16 @@ var
 implementation
 
 {$R *.fmx}
+
+uses FormLogin;
 {$R *.XLgXhdpiTb.fmx ANDROID}
+
+procedure TfmrInicio.Label3Click(Sender: TObject);
+begin
+  if not Assigned(fmrLogin) then
+    Application.CreateForm(TfmrLogin, fmrLogin);
+    fmrLogin.show;
+
+end;
 
 end.

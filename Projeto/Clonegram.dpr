@@ -11,6 +11,5 @@ uses
 begin
   Application.Initialize;
   Application.CreateForm(TfmrInicio, fmrInicio);
-  Application.CreateForm(TfmrLogin, fmrLogin);
   Application.Run;
 end.
